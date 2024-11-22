@@ -1,0 +1,57 @@
+name: manual.dubuque
+description: Total
+version: 0.9.2.24
+author: null
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: manualdubuque
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2024-11-22 23:00:31'
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-11-22 23:00:31'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2024-11-22T23:00:31.907672Z'
+  name: plibMaven
+  version: 8.6.0-SNAPSHOT
+  id: '1161905385'
+  createdAt: '2024-11-22T23:00:31.907672Z'
+  type: plibMaven
+projectDependencies:
+  '56':
+    projectUID: 56
+    projectName: virgilio.price
+    repositoryPath: gitUri=http://gitserver:3000/dev_68ThZIWJ_team_122/dev_68ThZIWJ_project_56.git&subPath=
+    version: virgilio.price/2.28.221
+    isDefault: false
+    author: null
+    createdAt: '2024-11-22 23:00:30'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
